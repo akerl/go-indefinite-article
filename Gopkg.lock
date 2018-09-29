@@ -2,6 +2,18 @@
 
 
 [[projects]]
+  branch = "master"
+  digest = "1:d644abd96f6bcda65cb7430ca3dfe2a5af05705c8c6c3ca53724cf1c44c10ca8"
+  name = "github.com/akerl/timber"
+  packages = [
+    "log",
+    "log/events",
+    "log/levels",
+  ]
+  pruneopts = "UT"
+  revision = "02c471ab033b140ab9763f6dc2f58b550c968835"
+
+[[projects]]
   digest = "1:870d441fe217b8e689d7949fef6e43efbc787e50f200cb1e70dbca9204a1d6be"
   name = "github.com/inconshreveable/mousetrap"
   packages = ["."]
@@ -28,6 +40,9 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  input-imports = ["github.com/spf13/cobra"]
+  input-imports = [
+    "github.com/akerl/timber/log",
+    "github.com/spf13/cobra",
+  ]
   solver-name = "gps-cdcl"
   solver-version = 1
