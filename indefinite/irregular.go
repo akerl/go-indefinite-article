@@ -35,7 +35,7 @@ var irregularList = []string{
 
 	// Adjectives: u like y
 	"ubiquitous", "ugandan", "ukrainian", "unanimous", "unicameral", "unified", "unique", "unisex",
-	"universal", "urinal", "urological", "useful", "useless", "usurious", "usurped", "utilitarian",
+	"unitarian", "unitary", "universal", "urinal", "urological", "useful", "useless", "usurious", "usurped", "utilitarian",
 	"utopic",
 
 	// Adverbs: u like y
