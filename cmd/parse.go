@@ -18,9 +18,9 @@ func init() {
 	rootCmd.AddCommand(parseCmd)
 }
 
-func parseRunner(cmd *cobra.Command, args []string) error {
+func parseRunner(_ *cobra.Command, args []string) error {
 	if len(args) == 0 {
-		return fmt.Errorf("No word given. See --help for syntax")
+		return fmt.Errorf("no word given. See --help for syntax")
 	}
 	word := args[0]
 	result := indefinite.AddArticle(word)

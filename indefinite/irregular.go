@@ -1,5 +1,7 @@
 package indefinite
 
+//revive:disable:line-length-limit
+
 var irregularList = []string{
 	// Nouns: eu like y
 	"eunuch", "eucalyptus", "eugenics", "eulogy", "euphemism", "euphony", "euphoria", "eureka",
