@@ -1,7 +1,7 @@
 go-indefinite-article
 =========
 
-[![Build Status](https://img.shields.io/travis/com/akerl/go-indefinite-article.svg)](https://travis-ci.com/akerl/go-indefinite-article)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/akerl/go-indefinite-article/Build)](https://github.com/akerl/go-indefinite-article/actions)
 [![GitHub release](https://img.shields.io/github/release/akerl/go-indefinite-article.svg)](https://github.com/akerl/go-indefinite-article/releases)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license)
 
